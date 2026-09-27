@@ -1,0 +1,6 @@
+if SHIELD_VOLLEYCONTROLLER
+
+config ZMK_KEYBOARD_NAME
+    default "volleycontroller"
+
+endif # SHIELD_VOLLEYCONTROLLER
