@@ -13,11 +13,20 @@
         // Edit this to define the positions and sizes of the keys, or remove it
         // if your keyboard will not support ZMK Studio.
         // https://zmk.dev/docs/development/hardware-integration/physical-layouts#optional-keys-property
-        keys  //                     w   h    x    y     rot    rx    ry
-            = <&key_physical_attrs 100 100    0    0       0     0     0>
-            , <&key_physical_attrs 100 100  100    0       0     0     0>
-            , <&key_physical_attrs 100 100    0  100       0     0     0>
-            , <&key_physical_attrs 100 100  100  100       0     0     0>
+        keys  //              w    h    x    y   rot  rx  ry
+             = <&key_physical_attrs 100 100   0   0    0   0   0>
+            , <&key_physical_attrs 100 100 100   0    0   0   0>
+            , <&key_physical_attrs 100 100 200   0    0   0   0>
+
+            , <&key_physical_attrs 100 100   0 100    0   0   0>
+            , <&key_physical_attrs 100 100 100 100    0   0   0>
+            , <&key_physical_attrs 100 100 200 100    0   0   0>
+
+            , <&key_physical_attrs 100 100   0 200    0   0   0>
+            , <&key_physical_attrs 100 100 100 200    0   0   0>
+            , <&key_physical_attrs 100 100 200 200    0   0   0>
+
+            , <&key_physical_attrs 200 100  50 300    0   0   0>
             ;
     };
 };
